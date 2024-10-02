@@ -1,0 +1,233 @@
+<html><head><base href="https://nepkoinsurance.com/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NepKo Indurance Services - Your Protection, Our Priority</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    scroll-behavior: smooth;
+  }
+  header {
+    background: linear-gradient(135deg, #0056b3, #007bff);
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li {
+    margin-left: 1.5rem;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+  }
+  nav ul li a:hover {
+    opacity: 0.8;
+  }
+  .hero {
+    background: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+    z-index: 2;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .btn {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  .btn:hover {
+    background: #0056b3;
+  }
+  .services {
+    padding: 4rem 2rem;
+    background: #f8f9fa;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .service-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  .service-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  .about {
+    padding: 4rem 2rem;
+    background: white;
+  }
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">NepKo Insurance Services</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Your Protection, Our Priority</h1>
+      <p>Secure your future with comprehensive insurance solutions tailored to your needs.</p>
+      <a href="#contact" class="btn">Get a Quote</a>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🏠</div>
+        <h3>Home Insurance</h3>
+        <p>Protect your most valuable asset with our comprehensive home insurance policies.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🚗</div>
+        <h3>Auto Insurance</h3>
+        <p>Drive with confidence knowing you're covered by our reliable auto insurance.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">💼</div>
+        <h3>Business Insurance</h3>
+        <p>Safeguard your business with our tailored commercial insurance solutions.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">❤️</div>
+        <h3>Life Insurance</h3>
+        <p>Ensure your loved ones' financial security with our life insurance plans.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-content">
+      <h2>About SecureGuard Insurance</h2>
+      <p>At SecureGuard Insurance, we've been protecting what matters most to our clients for over 30 years. Our team of experienced professionals is dedicated to providing personalized insurance solutions that give you peace of mind. We believe in building lasting relationships with our clients, always putting your needs first.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Contact us: (555) 123-4567 | info@secureguardinsurance.com</p>
+    <p>123 Insurance Street, Safetown, ST 12345</p>
+    <p>&copy; 2023 SecureGuard Insurance. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Simple animation for service cards
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = 1;
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.service-card').forEach(card => {
+      card.style.opacity = 0;
+      card.style.transform = 'translateY(20px)';
+      card.style.transition = 'opacity 0.5s, transform 0.5s';
+      observer.observe(card);
+    });
+  </script>
+</body>
+</html>
